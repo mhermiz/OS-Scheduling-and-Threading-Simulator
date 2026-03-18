@@ -62,7 +62,7 @@ class MergeThread implements Runnable {
 	private int threadId;
 	public MergeThread(int threadId) {
 		// Constructor
-		this.threadId = threadId; // Assign a thread ID for the merge thread
+		this.threadId = threadId;
 	}
 	@Override
 	public void run() {
